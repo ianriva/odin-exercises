@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(28, 31, 31);
+    color: rgb(211, 210, 211);
+}
+
+div > button {
+    margin: 5px;
+    padding: 10px;
+    height: 50px;
+    width: 100px;
+}
+
+.container {
+    margin: 0 5%;
+    padding: 10px;
+}
