@@ -2,3 +2,20 @@ body {
     background-color: rgb(22, 22, 22);
     color: rgb(223, 220, 211);
 }
+
+.btn {
+    color: rgb(223, 220, 211);
+    background-color: rgb(22, 22, 22);
+    height: 80px;
+    width: 150px;
+    font-size: 30px;
+    margin: 15px;
+    border-radius: 4px;
+}
+
+.selection,
+.title,
+.score {
+    text-align: center;
+    margin: 15px;
+}
