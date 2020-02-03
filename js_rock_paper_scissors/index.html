@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Rock, paper, scissors</title>
     <link rel="stylesheet" href="styles.css">
-    
+    <link rel="shortcut icon" href="">
+
 </head>
 <body>
     <header class="title">
@@ -14,12 +15,17 @@
     </header>
     <div class="score">
         <h2>Score</h2>
+        <h3 id="score-detail"></h3>
     </div>
     <div class="selection">
         <h2>Choose!</h2>
-        <button class="btn" id="btn_rock">Rock</button>
-        <button class="btn" id="btn_papper">Papper</button>
-        <button class="btn" id="btn_scissors">Scissors</button>
+        <button class="btn" id="btn-rock">Rock</button>
+        <button class="btn" id="btn-papper">Papper</button>
+        <button class="btn" id="btn-scissors">Scissors</button>
+    </div>
+    <div class="elections" id="elections"></div>
+    <div class="reset">
+        <button class="btn-reset" id="btn-reset">Reset</button>
     </div>
 
     <script src="rock_paper_scissors.js"></script>
