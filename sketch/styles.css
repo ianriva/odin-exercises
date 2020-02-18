@@ -5,9 +5,18 @@ body {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    width: 384px;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 .square {
-    height: auto;
-    width: auto;
+    height: 20px;
+    width: 20px;
+    background-color: burlywood;
+    margin: 1px 1px;
+    border: 1px solid black;
 }
