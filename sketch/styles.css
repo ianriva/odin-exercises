@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(7, 9, 27);
+    color: burlywood;
+}
+
+.container {
+    display: flex;
+}
+
+.square {
+    height: auto;
+    width: auto;
+}
