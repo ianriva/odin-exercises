@@ -1,0 +1,23 @@
+.screen {
+    height: 50px;
+    width: auto;
+    background-color: rgb(75, 75, 75);
+    font-size: 1.5em;
+}
+.buttons {
+    height: 500px;
+    width: 300px;
+}
+
+.btnc {
+    background-color: rgb(75, 75, 75);
+    height: 50px;
+    width: 100%;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+.calculator {
+    height: 300px;
+    width: 300px;
+}
