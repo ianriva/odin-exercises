@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container px-32">
+        <header>
+            <h1 class="text-4xl">Library</h1>
+        </header>
+        <main>
+            <button id="openModal" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Add
+                book</button>
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content w-1/2 mx-auto p-4 my-6">
+                    
+                    <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                        <div class="flex justify-between mb-4 items-start">
+                            <h1 class="text-xl text-center">Complete the fields to add a new book.</h1>
+                            <span class="close text-gray-500 hover:text-gray-900 cursor-pointer text-4xl font-extrabold">&times;</span>
+                        </div>
+                        <input autofocus required class="mx-auto my-3 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="nameForm"type="text" placeholder="Name">
+                        <input required id="authorForm"type="text" placeholder="Author" class="mx-auto my-3 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                        <input required id="pagesForm"type="number" placeholder="Pages" class="mx-auto my-3 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                        <div class="m-3">
+                            <input id="read" type="checkbox" class="mr-2 leading-tight">
+                            <label for="read">Read</label>
+                        </div>
+                        <hr class="my-5">
+                        <button class="w-full bg-gray-700 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded" type="submit">Add to library</button>
+                    </form>
+                </div>
+
+            </div>
+            <div id="library"></div>
+        </main>
+
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
